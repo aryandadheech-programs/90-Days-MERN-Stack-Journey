@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Basic javascript</title>
+	<body>
+	<script>
+		var name = prompt("Enter your name");
+			document.write("Hello " + name + "<br>");
+
+			var age = prompt("Enter your Age");
+			age = parseInt(age);
+
+			if (age >= 18) { 
+			  document.write("You are eligible to vote" +"<br>");
+			} else { 
+			  document.write("You are not eligible to vote"+"<br>" );
+			}
+			
+		var num=prompt("Enter  prime or not prime number");
+			num = parseInt(num);
+			
+			if (num%2==0){
+			   document.write("number is prime"+"<br>"+"<br>");
+			   } else {
+			     document.write("number is not prime"+"<br>"+"<br>");
+				 }
+				 
+		var	num1 = prompt("Enter the 1st number");
+		var num2 = prompt("Enter the 2nd number");
+		num1 = parseInt(num1);
+		num2 = parseInt(num2);
+		var op = prompt("Enter your operation(+,-,*,/):");
+			if (op=="+") {
+				document.write("addition  " + (num1+num2));
+				} else if (op=="-") {
+					document.write("substraction  " + (num1-num2));
+					}
+					else if (op=="*") {
+					document.write("multipication " + (num1*num2));
+					}
+					else if (op=="/") {
+					document.write("devide " + (num1/num2));
+					}
+					else {
+					document.write("wrong operation");
+					}
+				
+			
+	</script>
+	</body>
+</head>
+</html>	

@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>largest number</title>
+	</head>
+<body>
+		<script>/* largest number*/
+			var a = prompt("enter the 1st number ");
+			var b = prompt("enter the 2nd number ");
+			var c = prompt("enter the 3rd number ");
+			
+			a = parseInt(a);
+			b = parseInt(b);
+			c = parseInt(c);
+			
+			if (a>b && a>c) {
+				document.write(a + "is largest number "+"<br>");
+				}
+				else if (b>a && b>c) {
+				document.write(b + "is largest number "+"<br>");
+				}
+				else if (c>a && c>b) {
+				document.write(c + "is largest number "+"<br>");
+				}
+				else {
+				document.write("wrong input"+"<br>");
+				}
+			</script>
+			<script>/* simple Interest */
+			var p = prompt("enter principle");
+			var r = prompt("enter rate");
+			var i = prompt("enter Interest");
+			
+			var si = (p*r*i)/100;
+			
+			document.write("simple interst" + si +"<br>");
+			 </script>
+			 <script>/* password checking */
+			 var pass = prompt("Enter the password");
+			 
+			 pass = parseInt(pass);
+			 
+			 if  (pass == "12345") {
+				document.write("password is correct login succesfull" + "<br>");
+				}
+				else  {
+				document.write("password is not correct login unsuccesfull");
+				}
+			 </script>
+			 
+</body>
+</html>			 
+			
